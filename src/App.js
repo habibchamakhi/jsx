@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
+import art from './koora.png';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <><div style={{ border: "solid 1 black", maxWidth: "100vw" }}>np
+   
+         <h1 className="title red">habib chamakhi</h1>
+   
+         <br />
+   
+         <img src={art} alt="koora" />
+   
+         <br />
+   
+         <img src="/music.jpg" alt="music" />
+   
+       </div><video width={320} height={240} controls>
+           <source src="./myVideo.mp4" type="video/mp4" />
+         </video></>
+   
+   
+  )}
 
 export default App;
